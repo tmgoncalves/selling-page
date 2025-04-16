@@ -119,3 +119,27 @@ body {
     color: var(--branco-principal);
     margin-left: 1em;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container_imagem, .imagem-segunda-section {
+        width: 50vw;
+    }
+
+    .container_caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .dispositivos_listas, .lista_rodape {
+        display: block;
+    }
+}
